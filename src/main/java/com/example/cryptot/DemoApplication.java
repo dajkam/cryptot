@@ -12,7 +12,7 @@ public class DemoApplication {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-      return "kocham agate ";
+      return "działa";
     }
 
     public static void main(String[] args) {
